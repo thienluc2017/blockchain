@@ -77,11 +77,11 @@ lucDepzaiChain.addBlock({
     top: 10
 });
 //sua du lieu => valid false
-// lucDepzaiChain.chain[1].data={
-//     name: "cuccutkobietnoi",
-//     game : "choi ngu lam",
-//     top: 1000000
-// }
+lucDepzaiChain.chain[1].data={
+    name: "cuccutkobietnoi",
+    game : "choi ngu lam",
+    top: 1000000
+}
 //lucDepzaiChain.chain[1].hash=lucDepzaiChain.chain[1].caculateHash();
  console.log(lucDepzaiChain.chain);
  console.log('chain valid',lucDepzaiChain.isValid());
