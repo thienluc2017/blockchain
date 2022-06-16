@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "bitcoin": "^3.0.3",
+    "bitcoin-cli": "^0.0.3",
+    "bitcore-explorers": "^1.0.1",
     "crypto-js": "^4.1.1"
   }
 }

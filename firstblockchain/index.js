@@ -63,7 +63,7 @@ class Blockchain {
 }
 
 //console.log(block);
-const lucDepzaiChain = new Blockchain(2);
+const lucDepzaiChain = new Blockchain(4);
 
 //lucDepzaiChain.addBlock('cuccutbietnoi');
 lucDepzaiChain.addBlock({
@@ -82,7 +82,7 @@ lucDepzaiChain.addBlock({
 //     game : "choi ngu lam",
 //     top: 1000000
 // }
-// lucDepzaiChain.chain[1].hash=lucDepzaiChain.chain[1].caculateHash();
+//lucDepzaiChain.chain[1].hash=lucDepzaiChain.chain[1].caculateHash();
  console.log(lucDepzaiChain.chain);
  console.log('chain valid',lucDepzaiChain.isValid());
 
